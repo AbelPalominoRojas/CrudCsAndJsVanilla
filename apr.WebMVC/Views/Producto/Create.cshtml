@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+}
+
+
+<div class="card">
+    <div class="card-header">
+        Registrar Producto
+    </div>
+    <div class="card-body">
+        <div class="row g-3">
+            <div class="col-md-6">
+              <label for="ddlCatgoria" class="form-label">Categoria</label>
+              <select class="form-control" id="ddlCatgoria">
+                  <option value="0">-Seleccione-</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label for="txtNombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="txtNombre"/>
+            </div>
+            <div class="col-md-6">
+              <label for="txtPresentacion" class="form-label">Presentacion</label>
+              <input type="text" class="form-control" id="txtPresentacion" />
+            </div>
+            <div class="col-md-6">
+              <label for="txtPrecio" class="form-label">Precio</label>
+              <input type="number" class="form-control" id="txtPrecio" />
+            </div>
+           
+          </div>
+          <hr/>
+          <div class="d-flex align-items-center justify-content-between">
+            <div>
+                <button type="button" class="btn btn-info" id="btnReturnList">
+                    <i class="fas fa-reply"></i>
+                </button>
+            </div>
+            <div>
+              <button type="button" class="btn btn-success" id="btnGuardar">
+                  <i class="fas fa-save"></i>
+                  Guardar
+              </button>
+              <button type="button" class="btn btn-outline-secondary">
+                  <i class="fas fa-times-circle"></i>
+                  Cancelar
+              </button>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+@section script {
+    <script src="@Url.Content("~")assets/app/js/Producto/Create.js"></script>
+}

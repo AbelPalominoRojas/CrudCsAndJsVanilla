@@ -140,6 +140,8 @@
     <Content Include="assets\app\js\ExampleAjax\FetchAPI.js" />
     <Content Include="assets\app\js\ExampleAjax\FetchAPIAsync.js" />
     <Content Include="assets\app\js\ExampleAjax\XMLHttpRequest.js" />
+    <Content Include="assets\app\js\Producto\Create.js" />
+    <Content Include="assets\app\js\Producto\Index.js" />
     <Content Include="Global.asax" />
     <Content Include="assets\vendor\bootstrap\css\bootstrap.min.css" />
     <Content Include="assets\vendor\bootstrap\js\bootstrap.bundle.min.js" />
@@ -194,6 +196,7 @@
     <Content Include="Views\ExampleAjax\XMLHttpRequest.cshtml" />
     <Content Include="Views\ExampleAjax\FetchAPI.cshtml" />
     <Content Include="Views\ExampleAjax\FetchAPIAsync.cshtml" />
+    <Content Include="Views\Producto\Create.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
